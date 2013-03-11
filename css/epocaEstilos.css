@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'StagSansBold';
+  	src: url("../fonts/Stag Sans-Bold.otf");
+	src: local("☺"),
+    	 url('../fonts/Stag Sans-Bold.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'StagMedium';
+  src: url("../fonts/Stag Sans-Medium.otf");
+	src: local("☺"),
+    url('../fonts/Stag Sans-Medium.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'StagBook';
+  src: url("../fonts/Stag Sans-Book.otf");
+	src: local("☺"),
+    	url('../fonts/Stag Sans-Book.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'StagLight';
+  src: url("../fonts/Stag Sans-Light.otf");
+	src: local("☺"),
+    	url('../fonts/Stag Sans-Light.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'StagLightItalic';
+  src: url("../fonts/Stag Sans-Thin Italic.otf");
+	src: local("☺"),
+    	url('../fonts/Stag Sans-Thin Italic.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+/*  /////////    */
+		
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;	
+}
+
+#wrapperGeral{
+	width:940px;
+	height:600px;
+	/*background-image:url(../images/fichasBase.jpg);*/
+}
+
+/*estilos genericos*/
+
+h1 {
+	font-family: "StagBook", "Helvetica", Arial, Sans-Serif;
+	color:white;
+	font-size:24px;
+}
+h2 {
+	font-family: "StagBook", "Helvetica", Arial, Sans-Serif;
+	color:white;
+	font-size:22px;
+}
+h3 {
+	font-family: "StagBook", "Helvetica", Arial, Sans-Serif;
+	color:white;
+	font-size:20px;
+}
+h4 {
+	font-family: "StagBook", "Helvetica", Arial, Sans-Serif;
+	color:white;
+	font-size:18px;
+}
+h5 {
+	font-family: "StagBook", "Helvetica", Arial, Sans-Serif;
+	color:black;
+	font-size:16px;
+}
+h6 {
+	font-family: "StagBook", "Helvetica", Arial, Sans-Serif;
+	color:white;
+	font-size:14px;
+}
+
+p {
+	font-family: "StagBook", "Helvetica", Arial, Sans-Serif;
+	color:white;
+	font-size:14px;
+}
+
+table {
+	font-family: "Helvetica", Arial, Sans-Serif;
+	color:white;
+	font-size:12px;
+}
+
+label{
+	font-family: "StagBook", "Helvetica", Arial, Sans-Serif;
+	color:white;
+	font-size:14px;
+	position: relative;
+	top: 3px;
+}

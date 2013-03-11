@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Quiz Revista Época</title>
+
+<link href="css/epocaEstilos.css" rel="stylesheet" type="text/css">
+<link href="css/estilosQuiz.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.8.2.min.js"></script>
+<script language="javascript" src="js/tableconn_min.js"></script>
+<script language="javascript" src="js/quiz.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrapperQuiz">
+	<!-- tela inicial (stage 0)-->
+	<div class="stage" id="stage0">
+    	<img src="images/imgAbre.jpg" />
+        <img class="btnContinuarInicio" src="images/btnIniciar.png" />
+    </div><!-- fim stage0 -->
+    
+    <!-- las preguntas (stage 1) -->
+    <div class="stage" id="stage1">
+    	<img src="images/imgFundoGeral.jpg" />
+        
+		<div id="quizPerguntasPerguntas">
+      		<img id="imgPergunta" src="images/imagem00.jpg" />
+            <h3 id="numeroPergunta">Pergunta</h3>
+            <h2 id="txtPergunta">Pergunta</h2>
+            
+            <div id="divRadioButtons">
+            <table>
+                <tr>
+                    <td valign="top"><input type="radio" name="respostas" class="rbRespostas" value="0" id="rbResposta0"></td>
+                    <td valign="top" class="respTd"><label for="rbResposta0" class="txtRespostas" id="txtResposta0">Resposta 0</label></td>
+                </tr>
+                <tr>
+                    <td valign="top"><input type="radio" name="respostas" class="rbRespostas" value="0" id="rbResposta1"></td>
+                    <td valign="top" class="respTd"><label for="rbResposta1" class="txtRespostas" id="txtResposta1">Resposta 1</label></td>
+                </tr>
+                <tr>
+                    <td valign="top"><input type="radio"	name="respostas" class="rbRespostas" value="0" id="rbResposta2"></td>
+                	<td valign="top" class="respTd"><label for="rbResposta2" class="txtRespostas" id="txtResposta2">Resposta 2</label></td>
+                </tr>
+                <tr>
+                	<td valign="top"><input type="radio"	name="respostas" class="rbRespostas" value="0" id="rbResposta3"></td>
+                  	<td valign="top" class="respTd"><label for="rbResposta3" class="txtRespostas" id="txtResposta3">Resposta 3</label></td>
+                </tr>
+            </table>
+        </div>
+        <p id="labelContinuar">abcd</p>
+        <img id="btnContinuar" src="images/btnContinuar.png" />
+    </div>
+  </div><!-- fim stage1 -->
+
+  <!-- tela final (stage 2) -->
+   <div class="stage" id="stage2">
+   		<img src="images/imgFundoGeral.jpg" />
+        <p id="qPerguntasRespondidas"></p>
+        <p id="txtCliqueFinal">Clique nas perguntas para saber mais sobre os assuntos abordados</p>
+        <div id="divTableResultados"><!--<table>  tabla con los resultados finales (dinamicos)   </table>--></div>
+        
+<style>
+
+</style>
+        <div id="btnsFinais">
+        	<img id="btnFim" src="images/btnRefazer.png" />
+        	<a href="http://revistaepoca.globo.com/palavrachave/epoca-quiz/" target="_parent"><img id="btnOutrosTestes" src="images/btnOutrosTestes.png" /></a>
+        </div>
+    </div><!-- fim stage1 -->
+    
+</div> <!-- fim wrapperQuiz -->
+</body>
+</html>

@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-color: black;
+}
+#wrapperQuiz{
+	width:610px;
+	height:580px;
+	background-color: black;
+}
+#quizPerguntasPerguntas{
+	position:absolute;
+	top: 0;
+	width: 580px;
+	margin: 120px 0 0 20px;
+}
+#quizPerguntasPerguntas #imgPergunta{
+	position: absolute;
+	top: 145px;
+}
+#numeroPergunta {
+	position:absolute;
+	right: 30px;
+	font-size:12px;
+	font-family: "StagBook", "Helvetica", Arial, Sans-Serif;
+}
+#txtPergunta{
+	text-align:center;
+	font-size: 18px;
+	margin-top: 45px;
+	margin-right: 15px;	
+	margin-left:15px;
+}
+#feedbackResposta {
+	position:absolute;
+	top: 280px;
+	left: 237px;
+}
+#labelContinuar {
+	font-family: "StagLightItalic", "Helvetica", Arial, Sans-Serif;
+	position: absolute;
+	top: 419px;
+	width: 100%;
+	text-align: center;
+}
+.btnContinuarInicio {
+	position: absolute;
+	top: 518px;
+	left: 235px;
+	cursor: hand;
+	cursor: pointer;
+}
+#btnContinuar {
+	position: absolute;
+	cursor: hand;
+	cursor: pointer;
+	top: 390px;
+	margin-left: 47.5%;
+}
+#divRadioButtons {
+	position: absolute;
+	left: 160px;
+	top: 120px;
+}
+#divRadioButtons td {
+	padding-top: 20px;	
+}
+#qPerguntasRespondidas{
+	position:absolute;
+	top: 68px;
+	left: 175px;
+	color: #e5a812;
+	font-size:18px;
+	font-family: "StagBook", "Helvetica", Arial, Sans-Serif;
+}
+#btnFim{
+	cursor: hand;
+	cursor: pointer;
+}
+#btnsFinais {
+	position:absolute;
+	top: 522px;
+	margin-left: 131px;
+}
+#btnsFinais img {
+	float:left;	
+	margin-left: 20px;
+}
+
+
+.respTd{
+	/*width: 230px;*/	
+}
+#imgTxtAbreTexto {
+	position:absolute;
+	top: 150px;
+	width: 580px;
+	padding: 20px;
+}
+#imgTxtAbreTexto h3{
+	font-size:24px;
+	font-family: "StagMedium", "Helvetica", Arial, Sans-Serif;
+	color: white;
+	text-align:center;	
+}
+#imgTxtAbreTexto p{
+	font-size:18px;
+	font-family: "StagBook", "Helvetica", Arial, Sans-Serif;
+	color: white;
+}	
+#stage1 img {
+	position:absolute;
+	cursor: hand;
+	cursor: pointer;
+}
+.respVermelha {
+	color: #d2232a;
+}
+.respVerde {
+	color: #71bf44;
+}
+#divTableResultados {
+	position: absolute;
+	top: 135px;
+	left: 50px;
+}
+#divTableResultados td{
+	margin: 0;
+	padding-top: 5px;
+}
+
+#divTableResultados a{
+	color:white;
+}
+
+.bordeSupCeldas{
+	border-top: solid 1px #999;
+}
+#txtCliqueFinal {
+	position:absolute;
+	top: 98px;
+	left: 100px;
+	font-family: "StagLightItalic", "Helvetica", Arial, Sans-Serif;
+	color: white;	
+}
